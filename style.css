@@ -1,0 +1,124 @@
+.title{
+    display:flexbox;
+    margin: 8vh 8vw;
+    text-align: center;
+}
+.header_all{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8vh 8vw;
+}
+.header_title{
+    font-size: 3vh;
+}
+.header_subtitle{
+    font-size: 1.5vh;
+}
+.imagem_quadrinho{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.line{
+    
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+.line_out{
+    margin-bottom: 50px;
+    
+}
+.line_in{
+    
+    width: 60vw;
+    padding: 10px;
+    margin: 10px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.comment_section_left{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.comment_section_right{
+    display: flex;
+    flex-direction: row;
+}
+.imagem{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+.couple_comment{
+
+}
+.comment{
+    display: flex;
+    height: 50%;
+}
+.conteiner_img_user{
+    
+}
+.img_user{
+    width: 100%;
+    height: 100%;
+}
+.text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: flex-end;
+}
+.user_text{
+
+}
+.username{
+
+}
+.data{
+
+}
+.form_info{
+
+}
+.data_title{
+
+}
+.data_input{
+    
+}
+.data_input_field{
+
+}
+.data_input_label{
+
+}
+.input{
+
+}
+.data_input_checkbox{
+
+}
+.check{
+
+}
+.send_info{
+
+}
+.button_submit{
+
+}
+.creator{
+    
+}
