@@ -104,39 +104,50 @@ body {
 }
 .data{
     display: flex;
-    text-align: center;
+    text-align: start;
     justify-content: center;
 }
 .form_info{
 
 }
 .data_title{
-    font-size: 1.5em;
+    text-align: center;
+    margin-bottom: 15px;
+    font-weight: 700;
+    font-size: xx-large;
 }
 .data_input{
     
 }
 .data_input_field{
+    display: flex;
+    flex-direction: column;
 
 }
 .data_input_label{
-
+    margin-bottom: 10px;
 }
 .input{
-
+    margin-bottom: 10px;
+    background-color: lightgray;
+    border: 1px solid lightslategray;
+    height: 30px;
 }
 .data_input_checkbox{
-
-}
-.check{
-
+    display: flex;
 }
 .send_info{
-
+    width: 100%;
 }
 .button_submit{
-
+    color:white;
+    border: none;
+    background-color: blue;
+    text-transform: uppercase;
+    height: 30px;
+    border-radius: 6px;
+    font-weight: 700;
 }
 .creator{
-    
+    text-align: center;
 }
