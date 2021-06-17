@@ -3,18 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
     <title>Dados Formulario</title>
 </head>
 <body>
+    <div class="card">
+        <p id="nome"></p>
+        <p id="email"></p>
+        <p id="tipo"></p>
+    </div>    
     <script>
-        const urlParams = new URLSearchParams(window.location.search).toString();
-        let texto = urlParams.get('nome');
-        console.log(texto);
-        texto = urlParams.get('email');
-        console.log(texto);
-        texto = urlParams.get('tipo');
-        console.log(texto);
-    
+        var query = new URLSearchParams(window.location.search);
+        document.querySelector('#nome').textContent = `Nome: ${query.get('name')}`
+        var query = new URLSearchParams(window.location.search);
+        document.querySelector('#email').textContent = `Email: ${query.get('email')}`
+        var query = new URLSearchParams(window.location.search);
+        document.querySelector('#tipo').textContent = `Categorias: ${query.get('tipo')}`
     </script>
 </body>
 </html>

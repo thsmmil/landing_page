@@ -151,3 +151,10 @@ body {
 .creator{
     text-align: center;
 }
+.card{
+    width: 30%;
+    border: 2px solid black;
+}
+p{
+    font-weight: bold;
+}
