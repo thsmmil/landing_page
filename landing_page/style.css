@@ -1,3 +1,6 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
 .title{
     display:flexbox;
     margin: 8vh 8vw;
@@ -20,7 +23,7 @@
     width: 100%;
 }
 .line{
-    
+    padding: 32px 0px;
 }
 .cards{
     display: flex;
@@ -31,7 +34,7 @@
 }
 .line_out{
     margin-bottom: 50px;
-    
+    font-size: 22px;
 }
 .line_in{
     
@@ -39,6 +42,11 @@
     padding: 10px;
     margin: 10px;
 }
+
+.line_in h3 {
+    font-weight: normal;
+}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -64,36 +72,46 @@
 .comment{
     display: flex;
     height: 50%;
+    align-items: center;
+    padding: 0px 80px;
 }
 .conteiner_img_user{
     
 }
 .img_user{
     width: 100%;
-    height: 100%;
+    object-fit: cover;
+    margin-right: 64px;
 }
 .text{
     display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    /* display: flex;
     flex-direction: row;
     align-items: center;
     flex-wrap: wrap;
     align-content: space-around;
-    justify-content: flex-end;
+    justify-content: flex-end; */
 }
 .user_text{
 
 }
 .username{
-
+    font-weight: bold;;
 }
 .data{
-
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 .form_info{
 
 }
 .data_title{
-
+    font-size: 1.5em;
 }
 .data_input{
     
